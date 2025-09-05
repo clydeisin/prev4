@@ -1,0 +1,2179 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="pingback" href="https://tanshcreative.com/mellow-wp/xmlrpc.php">
+    <title>Mellow &#8211; Personal Portfolio, CV and Resume WordPress Theme</title>
+    <meta name='robots' content='max-image-preview:large' />
+    <style>
+        img:is([sizes="auto" i], [sizes^="auto," i]) {
+            contain-intrinsic-size: 3000px 1500px
+        }
+    </style>
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link rel="alternate" type="application/rss+xml" title="Mellow &raquo; Feed" href="https://tanshcreative.com/mellow-wp/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Mellow &raquo; Comments Feed" href="https://tanshcreative.com/mellow-wp/comments/feed/" />
+    <script>
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/tanshcreative.com\/mellow-wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(s, n) {
+            var o, i, e;
+
+            function c(e) {
+                try {
+                    var t = {
+                        supportTests: e,
+                        timestamp: (new Date).valueOf()
+                    };
+                    sessionStorage.setItem(o, JSON.stringify(t))
+                } catch (e) {}
+            }
+
+            function p(e, t, n) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                    a = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                return t.every(function(e, t) {
+                    return e === a[t]
+                })
+            }
+
+            function u(e, t) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                for (var n = e.getImageData(16, 16, 1, 1), a = 0; a < n.data.length; a++)
+                    if (0 !== n.data[a]) return !1;
+                return !0
+            }
+
+            function f(e, t, n, a) {
+                switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !a(e, "\ud83e\udedf")
+                }
+                return !1
+            }
+
+            function g(e, t, n, a) {
+                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : s.createElement("canvas"),
+                    o = r.getContext("2d", {
+                        willReadFrequently: !0
+                    }),
+                    i = (o.textBaseline = "top", o.font = "600 32px Arial", {});
+                return e.forEach(function(e) {
+                    i[e] = t(o, e, n, a)
+                }), i
+            }
+
+            function t(e) {
+                var t = s.createElement("script");
+                t.src = e, t.defer = !0, s.head.appendChild(t)
+            }
+            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", i = ["flag", "emoji"], n.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, e = new Promise(function(e) {
+                s.addEventListener("DOMContentLoaded", e, {
+                    once: !0
+                })
+            }), new Promise(function(t) {
+                var n = function() {
+                    try {
+                        var e = JSON.parse(sessionStorage.getItem(o));
+                        if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                    } catch (e) {}
+                    return null
+                }();
+                if (!n) {
+                    if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                        var e = "postMessage(" + g.toString() + "(" + [JSON.stringify(i), f.toString(), p.toString(), u.toString()].join(",") + "));",
+                            a = new Blob([e], {
+                                type: "text/javascript"
+                            }),
+                            r = new Worker(URL.createObjectURL(a), {
+                                name: "wpTestEmojiSupports"
+                            });
+                        return void(r.onmessage = function(e) {
+                            c(n = e.data), r.terminate(), t(n)
+                        })
+                    } catch (e) {}
+                    c(n = g(i, f, p, u))
+                }
+                t(n)
+            }).then(function(e) {
+                for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function() {
+                    n.DOMReady = !0
+                }
+            }).then(function() {
+                return e
+            }).then(function() {
+                var e;
+                n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+            }))
+        }((window, document), window._wpemojiSettings);
+    </script>
+    <link rel='stylesheet' id='font-awesome-5-all-css' href='https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=6.8.2' media='all' />
+    <style id='wp-emoji-styles-inline-css'>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <style id='classic-theme-styles-inline-css'>
+        /*! This file is auto-generated */
+
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css'>
+        :root {
+            --wp--preset--aspect-ratio--square: 1;
+            --wp--preset--aspect-ratio--4-3: 4/3;
+            --wp--preset--aspect-ratio--3-4: 3/4;
+            --wp--preset--aspect-ratio--3-2: 3/2;
+            --wp--preset--aspect-ratio--2-3: 2/3;
+            --wp--preset--aspect-ratio--16-9: 16/9;
+            --wp--preset--aspect-ratio--9-16: 9/16;
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--color--dark: #0e0f0f;
+            --wp--preset--color--gray: #bbbaa6;
+            --wp--preset--color--accent: #d8fe00;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 12px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 24px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--font-size--extra-small: 10px;
+            --wp--preset--font-size--normal: 18px;
+            --wp--preset--font-size--extra-large: 40px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .is-layout-flex> :is(*, div) {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        .is-layout-grid> :is(*, div) {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :root :where(.wp-block-pullquote) {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css' href='https://tanshcreative.com/mellow-wp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.1' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='https://tanshcreative.com/mellow-wp/wp-content/themes/mellow/assets/css/bootstrap.min.css?ver=6.8.2' media='all' />
+    <link rel='stylesheet' id='iconfont-css' href='https://tanshcreative.com/mellow-wp/wp-content/themes/mellow/fonts/iconfont.css?ver=6.8.2' media='all' />
+    <link rel='stylesheet' id='mellow-style-css' href='https://tanshcreative.com/mellow-wp/wp-content/themes/mellow/style.css?ver=6.8.2' media='all' />
+    <link rel='stylesheet' id='mellow-header-v3-css' href='https://tanshcreative.com/mellow-wp/wp-content/themes/mellow/assets/css/header-v3.css?ver=6.8.2' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.31.3' media='all' />
+    <link rel='stylesheet' id='elementor-post-7-css' href='https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/css/post-7.css?ver=1756903965' media='all' />
+    <link rel='stylesheet' id='widget-image-css' href='https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.31.3' media='all' />
+    <link rel='stylesheet' id='swiper-css' href='https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+    <link rel='stylesheet' id='e-swiper-css' href='https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.31.3' media='all' />
+    <link rel='stylesheet' id='widget-image-carousel-css' href='https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=3.31.3' media='all' />
+    <link rel='stylesheet' id='widget-counter-css' href='https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/css/widget-counter.min.css?ver=3.31.3' media='all' />
+    <link rel='stylesheet' id='elementor-post-9-css' href='https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/css/post-9.css?ver=1756904077' media='all' />
+    <link rel='stylesheet' id='mellow-inline-style-css' href='https://tanshcreative.com/mellow-wp/wp-content/themes/mellow/assets/css/custom_script.css?ver=6.8.2' media='all' />
+    <style id='mellow-inline-style-inline-css'>
+        body {
+            font-size: 18px;
+            line-height: 1.4;
+        }
+
+        h1,
+        .elementor-widget-heading h1.elementor-heading-title {
+            font-size: 6.667em;
+            line-height: 1;
+        }
+
+        h2,
+        .elementor-widget-heading h2.elementor-heading-title {
+            font-size: 2.667em;
+            line-height: 1.2;
+        }
+
+        h3,
+        .elementor-widget-heading h3.elementor-heading-title {
+            font-size: 2em;
+            line-height: 1.2;
+        }
+
+        h4,
+        .elementor-widget-heading h4.elementor-heading-title {
+            font-size: 1.667em;
+            line-height: 1.2;
+        }
+
+        h5,
+        .elementor-widget-heading h5.elementor-heading-title {
+            font-size: 1.333em;
+            line-height: 1.2;
+        }
+
+        h6,
+        .elementor-widget-heading h6.elementor-heading-title {
+            font-size: 1em;
+            line-height: 1.2;
+        }
+
+        .dtr-page-title {
+            font-size: 70px;
+            line-height: 80px;
+        }
+
+        @media (max-width: 782px) {
+            .dtr-single-post-title.dtr-page-title {
+                font-size: 40px !important;
+                line-height: 48px !important;
+            }
+            .dtr-page-title {
+                font-size: 40px !important;
+                line-height: 48px !important;
+            }
+        }
+    </style>
+    <link rel='stylesheet' id='mellow-responsive-css' href='https://tanshcreative.com/mellow-wp/wp-content/themes/mellow/assets/css/responsive.css?ver=6.8.2' media='all' />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Mona%20Sans:200,300,400,500,600,700,800,900,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&#038;subset=latin,latin-ext,vietnamese&#038;display=swap&#038;ver=1749492635"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mona%20Sans:200,300,400,500,600,700,800,900,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&#038;subset=latin,latin-ext,vietnamese&#038;display=swap&#038;ver=1749492635"
+        media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mona%20Sans:200,300,400,500,600,700,800,900,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&#038;subset=latin,latin-ext,vietnamese&#038;display=swap&#038;ver=1749492635" /></noscript>
+    <link
+        rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1748367945' media='all' />
+    <link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1748367949' media='all' />
+    <script src="https://tanshcreative.com/mellow-wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+    <link rel="https://api.w.org/" href="https://tanshcreative.com/mellow-wp/wp-json/" />
+    <link rel="alternate" title="JSON" type="application/json" href="https://tanshcreative.com/mellow-wp/wp-json/wp/v2/pages/9" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tanshcreative.com/mellow-wp/xmlrpc.php?rsd" />
+    <meta name="generator" content="WordPress 6.8.2" />
+    <link rel="canonical" href="https://tanshcreative.com/mellow-wp/" />
+    <link rel='shortlink' href='https://tanshcreative.com/mellow-wp/' />
+    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://tanshcreative.com/mellow-wp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftanshcreative.com%2Fmellow-wp%2F" />
+    <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://tanshcreative.com/mellow-wp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftanshcreative.com%2Fmellow-wp%2F&#038;format=xml" />
+    <meta name="generator" content="Redux 4.5.7" />
+    <meta name="generator" content="Elementor 3.31.3; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+    <style>
+        .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+        .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+            background-image: none !important;
+        }
+
+        @media screen and (max-height: 1024px) {
+            .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+            .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                background-image: none !important;
+            }
+        }
+
+        @media screen and (max-height: 640px) {
+            .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+            .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                background-image: none !important;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://tanshcreative.com/mellow-wp/wp-content/uploads/cropped-favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://tanshcreative.com/mellow-wp/wp-content/uploads/cropped-favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://tanshcreative.com/mellow-wp/wp-content/uploads/cropped-favicon-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://tanshcreative.com/mellow-wp/wp-content/uploads/cropped-favicon-270x270.png" />
+    <style id="mellow_theme_mod-dynamic-css" title="dynamic-css" class="redux-options-output">
+        body {
+            font-family: "Mona Sans";
+            text-transform: none;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        h1,
+        .elementor-widget-heading h1.elementor-heading-title {
+            font-family: "Mona Sans";
+            text-transform: none;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        h2,
+        .elementor-widget-heading h2.elementor-heading-title {
+            font-family: "Mona Sans";
+            text-transform: none;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        h3,
+        .elementor-widget-heading h3.elementor-heading-title {
+            font-family: "Mona Sans";
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        h4,
+        .elementor-widget-heading h4.elementor-heading-title {
+            font-family: "Mona Sans";
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        h5,
+        .elementor-widget-heading h5.elementor-heading-title {
+            font-family: "Mona Sans";
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        h6,
+        .elementor-widget-heading h6.elementor-heading-title {
+            font-family: "Mona Sans";
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .main-navigation .sf-menu li a {
+            line-height: 14px;
+            font-size: 14px;
+        }
+
+        .main-navigation .sf-menu li li a {
+            line-height: 14px;
+            font-size: 14px;
+        }
+
+        .dtr-header-btn {
+            line-height: 20px;
+            font-size: 14px;
+        }
+
+        .dtr-breadcrumb-wrapper {
+            margin-top: 20px;
+        }
+
+        .dtr-page-title {
+            text-transform: uppercase;
+        }
+
+        #dtr-footer-section {
+            border-top: 1px solid #111111;
+        }
+
+        .dtr-footer-section-wrap h6 {
+            font-family: "Mona Sans";
+            text-transform: uppercase;
+            line-height: 14px;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 14px;
+        }
+
+        .dtr-archive-post-title,
+        .dtr-archive-post-title a {
+            font-family: "Mona Sans";
+            text-transform: none;
+            line-height: 36px;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 30px;
+        }
+
+        .dtr-entry-meta,
+        .wp-block-latest-posts__post-author,
+        .wp-block-latest-posts__post-date {
+            line-height: 30px;
+        }
+
+        .dtr-entry-meta .dtr-meta-category a {
+            text-transform: uppercase;
+            line-height: 14px;
+        }
+
+        .dtr-single-post-title.dtr-page-title {
+            text-transform: uppercase;
+            line-height: 80px;
+            font-size: 70px;
+        }
+
+        .dtr-single-meta {
+            line-height: 30px;
+        }
+
+        .dtr-single-meta .dtr-meta-category a {
+            text-transform: uppercase;
+            line-height: 14px;
+        }
+    </style>
+</head>
+
+<body class="home wp-singular page-template page-template-template-no-page-header page-template-template-no-page-header-php page page-id-9 wp-custom-logo wp-embed-responsive wp-theme-mellow dtr-header-v3 show-onscroll elementor-default elementor-kit-7 elementor-page elementor-page-9">
+    <div id="dtr-wrapper" class="clearfix">
+        <header id="dtr-main-header">
+            <div id="dtr-header-global" class="fixed-top">
+                <div class="dtr-header-global-content">
+                    <div class="dtr-header-left">
+                        <a class="dtr-logo logo-default" href="https://tanshcreative.com/mellow-wp/" title="Mellow"><img src="https://tanshcreative.com/mellow-wp/wp-content/uploads/logo.png" alt="Mellow" width="188" height="30"></a>
+                        <a class="dtr-logo logo-alt" href="https://tanshcreative.com/mellow-wp/" title="Mellow"><img src="https://tanshcreative.com/mellow-wp/wp-content/uploads/logo.png" alt="Mellow" width="188" height="30"></a>
+                    </div>
+                    <div class="dtr-header-right ms-auto">
+                        <div class="main-navigation dtr-menu-default">
+                            <ul id="menu-primary-menu" class="dtr-nav sf-menu dtr-main-nav">
+                                <li id="menu-item-2092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2092"><a href="#services">Services</a></li>
+                                <li id="menu-item-2093" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2093"><a href="#works">Works</a></li>
+                                <li id="menu-item-2094" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2094"><a href="#about">About Me</a></li>
+                                <li id="menu-item-2095" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2095"><a href="#articles">Articles</a></li>
+                                <li id="menu-item-2958" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2958"><a href="#">Pages</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-2977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2977"><a href="https://tanshcreative.com/mellow-wp/about-page/">About Page</a></li>
+                                        <li id="menu-item-2962" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2962"><a href="https://tanshcreative.com/mellow-wp/services/">All Services</a>
+                                            <ul class="sub-menu">
+                                                <li id="menu-item-2965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2965"><a href="https://tanshcreative.com/mellow-wp/brand-strategy/">Brand Strategy</a></li>
+                                                <li id="menu-item-2974" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2974"><a href="https://tanshcreative.com/mellow-wp/product-design/">Product Design</a></li>
+                                                <li id="menu-item-2973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2973"><a href="https://tanshcreative.com/mellow-wp/ui-ux-design/">UI UX Design</a></li>
+                                                <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972"><a href="https://tanshcreative.com/mellow-wp/seo-services/">SEO Services</a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="menu-item-2978" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2978"><a href="#">Portfolio &#8211; Style 1</a>
+                                            <ul class="sub-menu">
+                                                <li id="menu-item-2983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2983"><a href="https://tanshcreative.com/mellow-wp/style-1-masonry-2-column/">Masonry 2 Column</a></li>
+                                                <li id="menu-item-2989" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2989"><a href="https://tanshcreative.com/mellow-wp/style-1-masonry-3-column/">Masonry 3 Column</a></li>
+                                                <li id="menu-item-2988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2988"><a href="https://tanshcreative.com/mellow-wp/style-1-masonry-4-column/">Masonry 4 Column</a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="menu-item-2990" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2990"><a href="#">Portfolio &#8211; Style 2</a>
+                                            <ul class="sub-menu">
+                                                <li id="menu-item-2999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2999"><a href="https://tanshcreative.com/mellow-wp/style-2-masonry-2-column/">Masonry 2 Column</a></li>
+                                                <li id="menu-item-2998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2998"><a href="https://tanshcreative.com/mellow-wp/style-2-masonry-3-column/">Masonry 3 Column</a></li>
+                                                <li id="menu-item-2997" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2997"><a href="https://tanshcreative.com/mellow-wp/style-2-masonry-4-column/">Masonry 4 Column</a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="menu-item-3332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3332"><a href="https://tanshcreative.com/mellow-wp/blog/">Blog Archive</a></li>
+                                        <li id="menu-item-3011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3011"><a href="https://tanshcreative.com/mellow-wp/contact-page/">Contact Page</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-2096" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2096"><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#contact" class="dtr-btn dtr-header-btn" target="_self">
+        <span class="dtr-btn__text">
+            Book a Call        </span>
+            </a>
+                </div>
+            </div>
+            <div id="dtr-responsive-header">
+                <div class="container">
+                    <a class="dtr-logo logo-default" href="https://tanshcreative.com/mellow-wp/" title="Mellow"><img src="https://tanshcreative.com/mellow-wp/wp-content/uploads/logo.png" alt="Mellow" width="188" height="30"></a>
+                    <button id="dtr-menu-button" class="dtr-hamburger" type="button" aria-label="Menu Button"><span class="dtr-hamburger-lines-wrapper"><span class="dtr-hamburger-lines"></span></span></button>
+                </div>
+                <div class="dtr-responsive-header-menu"></div>
+            </div>
+        </header>
+        <div id="dtr-main-wrapper" class="clearfix dtr-fullwidth">
+            <main id="dtr-primary-section" class="dtr-content-area">
+                <div class="dtr-primary-section--content">
+                    <article id="post-9" class="post-9 page type-page status-publish hentry">
+                        <div class="entry-content">
+                            <div data-elementor-type="wp-page" data-elementor-id="9" class="elementor elementor-9">
+                                <div class="elementor-element elementor-element-8d9ddf8 e-con-full e-flex e-con e-parent" data-id="8d9ddf8" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-b9c7790 e-grid e-con-boxed e-con e-child" data-id="b9c7790" data-element_type="container">
+                                        <div class="e-con-inner">
+                                            <div class="elementor-element elementor-element-e8db09b e-con-full e-flex e-con e-child" data-id="e8db09b" data-element_type="container">
+                                                <div class="elementor-element elementor-element-b0c227a e-con-full e-flex e-con e-child" data-id="b0c227a" data-element_type="container">
+                                                    <div class="elementor-element elementor-element-5b410c0 e-con-full e-transform e-flex e-con e-child" data-id="5b410c0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2.5,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-8fa804c e-con-full e-flex e-con e-child" data-id="8fa804c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                        <div class="elementor-element elementor-element-a3a490e e-transform elementor-widget elementor-widget-image" data-id="a3a490e" data-element_type="widget" data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:45,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                                                            data-widget_type="image.default">
+                                                            <div class="elementor-widget-container">
+                                                                <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/arrow-r5jvcny8f1eqyviladml6rcznvcgit4spbfvi7p0io.png" title="arrow" alt="arrow" loading="lazy" />                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-95808d3 elementor-align-left elementor-widget elementor-widget-dtr-heading" data-id="95808d3" data-element_type="widget" data-widget_type="dtr-heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="dtr-heading-wrapper">
+                                                                <h1 class="dtr-heading">Hi I am</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-a560569 e-con-full e-flex e-con e-child" data-id="a560569" data-element_type="container">
+                                                    <div class="elementor-element elementor-element-711abe3 elementor-align-left elementor-widget elementor-widget-dtr-heading" data-id="711abe3" data-element_type="widget" data-widget_type="dtr-heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="dtr-heading-wrapper">
+                                                                <h1 class="dtr-heading">Mellow</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-1cadc2d e-con-full e-flex e-con e-child" data-id="1cadc2d" data-element_type="container">
+                                                    <div class="elementor-element elementor-element-5cc94aa elementor-align-left elementor-widget elementor-widget-dtr-heading" data-id="5cc94aa" data-element_type="widget" data-widget_type="dtr-heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="dtr-heading-wrapper">
+                                                                <h1 class="dtr-heading">White</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-7ac7566 e-con-full e-flex e-con e-child" data-id="7ac7566" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                        <div class="elementor-element elementor-element-4ba6e4d elementor-widget elementor-widget-dtr-theme_icon" data-id="4ba6e4d" data-element_type="widget" data-widget_type="dtr-theme_icon.default">
+                                                            <div class="elementor-widget-container">
+
+                                                                <div class="dtr-icon dtr-theme-icon">
+
+                                                                    <picture>
+                                                                        <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b_1f3fc/512.webp" type="image/webp">
+                                                                        <img decoding="async" src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b_1f3fc/512.gif" alt="👋" width="64" height="64">
+                                                                    </picture>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-c64c1ad e-con-full e-flex e-con e-child" data-id="c64c1ad" data-element_type="container">
+                                                <div class="elementor-element elementor-element-ac53475 e-con-full e-flex e-con e-child" data-id="ac53475" data-element_type="container">
+                                                    <div class="elementor-element elementor-element-fa68512 elementor-widget elementor-widget-dtr-button" data-id="fa68512" data-element_type="widget" data-widget_type="dtr-button.default">
+                                                        <div class="elementor-widget-container">
+                                                            <a class="dtr-btn   dtr-radius--round dtr-scroll-btn" href="#works" role="button">
+                            <span class="dtr-btn__text">View Portfolio</span>
+                </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-4020142 elementor-widget elementor-widget-dtr-button" data-id="4020142" data-element_type="widget" data-widget_type="dtr-button.default">
+                                                        <div class="elementor-widget-container">
+                                                            <a class="dtr-btn   dtr-radius--round " href="#" role="button">
+                            <span class="dtr-btn__text">Download Resume</span>
+                </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-83f6047 e-con-full e-flex e-con e-child" data-id="83f6047" data-element_type="container">
+                                                    <div class="elementor-element elementor-element-f82051c elementor-widget elementor-widget-text-editor" data-id="f82051c" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            A product designer, specialize in creating magical visual identities for digital products. </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-be1bc95 e-grid e-con-full e-con e-child" data-id="be1bc95" data-element_type="container">
+                                        <div class="elementor-element elementor-element-96b04af elementor-widget elementor-widget-image-carousel" data-id="96b04af" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;6&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay_speed&quot;:3000,&quot;speed&quot;:1000,&quot;slides_to_show_tablet&quot;:&quot;3&quot;,&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;}"
+                                            data-widget_type="image-carousel.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-image-carousel-wrapper swiper" role="region" aria-roledescription="carousel" aria-label="Image Carousel" dir="ltr">
+                                                    <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+                                                        <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 6">
+                                                            <figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/client-1-r5qhbd934erj2wy4ok95oyx6mtkbmi2xdqh7sb3g8w.png" alt="client-1"
+                                                                /></figure>
+                                                        </div>
+                                                        <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 6">
+                                                            <figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/client-2-r5qhbpgzl9899ugdp7jb3du6ctw3ekffreyj0wlc00.png" alt="client-2"
+                                                                /></figure>
+                                                        </div>
+                                                        <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 6">
+                                                            <figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/client-3-r5qhbrcnyxatx2dne8ck8dd3jlmttymwfo9hzgijnk.png" alt="client-3"
+                                                                /></figure>
+                                                        </div>
+                                                        <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 6">
+                                                            <figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/client-4-r5qhbsai5rc48oca8qr6sv4k4zi71nqmrswzgqh5hc.png" alt="client-4"
+                                                                /></figure>
+                                                        </div>
+                                                        <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="5 of 6">
+                                                            <figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/logoipsum-280-r5qhbu66jfeovw9jxrkfxunhbr8xh1y3g27yfaed4w.png" alt="logoipsum-280"
+                                                                /></figure>
+                                                        </div>
+                                                        <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="6 of 6">
+                                                            <figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/client-5-r5qhbt8ccldekaax395tdcw0qddk9cud3xkgy0frb4.png" alt="client-5"
+                                                                /></figure>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-5a8a6d9 e-flex e-con-boxed e-con e-parent" data-id="5a8a6d9" data-element_type="container" id="services">
+                                    <div class="e-con-inner">
+                                        <div class="elementor-element elementor-element-482182c e-grid e-con-full e-con e-child" data-id="482182c" data-element_type="container">
+                                            <div class="elementor-element elementor-element-a8ec2ac elementor-align-left elementor-widget elementor-widget-dtr-subheading" data-id="a8ec2ac" data-element_type="widget" data-widget_type="dtr-subheading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="dtr-subheading-wrapper">
+                                                        <p class="dtr-subheading">What I do</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-a7842f4 elementor-align-left elementor-widget elementor-widget-dtr-heading" data-id="a7842f4" data-element_type="widget" data-widget_type="dtr-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="dtr-heading-wrapper">
+                                                        <h2 class="dtr-heading">Digital Product Design Services I Offer</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-1f78b9c e-grid e-con-full e-con e-child" data-id="1f78b9c" data-element_type="container">
+                                            <div class="elementor-element elementor-element-c4cb07f elementor-widget elementor-widget-dtr-servicebox" data-id="c4cb07f" data-element_type="widget" data-widget_type="dtr-servicebox.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="dtr-servicebox dtr-radius--rounded">
+                                                        <div class="dtr-servicebox__head">
+                                                            <div class="dtr-icon dtr-servicebox__icon">
+                                                                <i class="icon-asterisk" aria-hidden="true"></i>
+                                                            </div>
+                                                            <h3 class="dtr-servicebox__heading">Brand Strategy</h3>
+                                                            <a class="dtr-servicebox__link" href="https://tanshcreative.com/mellow-wp/brand-strategy/" role="button"></a>
+
+                                                        </div>
+                                                        <div class="dtr-servicebox__content">
+                                                            A strong brand strategy defines what a brand stands for, promises to its customers, and how it communicates those promises through product development. </div>
+                                                        <div class="dtr-servicebox__keywords">
+                                                            <span class="dtr-servicebox__keyword ">Brand Posture</span><span class="dtr-servicebox__keyword ">Consumer Behaviours</span><span class="dtr-servicebox__keyword ">Narrative Strategy</span>
+                                                            <span
+                                                                class="dtr-servicebox__keyword ">Offer Framework</span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-a89fac3 elementor-widget elementor-widget-dtr-servicebox" data-id="a89fac3" data-element_type="widget" data-widget_type="dtr-servicebox.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="dtr-servicebox dtr-radius--rounded">
+                                                        <div class="dtr-servicebox__head">
+                                                            <div class="dtr-icon dtr-servicebox__icon">
+                                                                <i class="icon-box-fill" aria-hidden="true"></i>
+                                                            </div>
+                                                            <h3 class="dtr-servicebox__heading">Product Design</h3>
+                                                            <a class="dtr-servicebox__link" href="https://tanshcreative.com/mellow-wp/product-design/" role="button"></a>
+
+                                                        </div>
+                                                        <div class="dtr-servicebox__content">
+                                                            The process of creating and developing a product with the goal of solving a specific problem or fulfilling a user need involves a functionality, aesthetics and usability. </div>
+                                                        <div class="dtr-servicebox__keywords">
+                                                            <span class="dtr-servicebox__keyword ">Web Platform</span><span class="dtr-servicebox__keyword ">Mobile Application</span><span class="dtr-servicebox__keyword ">Creative Design Solutions</span>
+                                                            <span
+                                                                class="dtr-servicebox__keyword ">AI Consulting</span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-b254753 elementor-widget elementor-widget-dtr-servicebox" data-id="b254753" data-element_type="widget" data-widget_type="dtr-servicebox.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="dtr-servicebox dtr-radius--rounded">
+                                                        <div class="dtr-servicebox__head">
+                                                            <div class="dtr-icon dtr-servicebox__icon">
+                                                                <i class="icon-pencil-fill" aria-hidden="true"></i>
+                                                            </div>
+                                                            <h3 class="dtr-servicebox__heading">UI UX Design</h3>
+                                                            <a class="dtr-servicebox__link" href="https://tanshcreative.com/mellow-wp/ui-ux-design/" role="button"></a>
+
+                                                        </div>
+                                                        <div class="dtr-servicebox__content">
+                                                            Creating digital products that are both visually appealing and easy to use having focuse on different aspects of the user’s interaction with a product. </div>
+                                                        <div class="dtr-servicebox__keywords">
+                                                            <span class="dtr-servicebox__keyword ">Visual Design</span><span class="dtr-servicebox__keyword ">Customer Experience</span><span class="dtr-servicebox__keyword ">Prototyping</span><span class="dtr-servicebox__keyword ">Wireframes</span>
+                                                            <span
+                                                                class="dtr-servicebox__keyword ">Web Design</span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-985b8d4 elementor-widget elementor-widget-dtr-servicebox" data-id="985b8d4" data-element_type="widget" data-widget_type="dtr-servicebox.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="dtr-servicebox dtr-radius--rounded">
+                                                        <div class="dtr-servicebox__head">
+                                                            <div class="dtr-icon dtr-servicebox__icon">
+                                                                <i class="icon-rocket-takeoff-fill" aria-hidden="true"></i>
+                                                            </div>
+                                                            <h3 class="dtr-servicebox__heading">SEO Services</h3>
+                                                            <a class="dtr-servicebox__link" href="https://tanshcreative.com/mellow-wp/seo-services/" role="button"></a>
+
+                                                        </div>
+                                                        <div class="dtr-servicebox__content">
+                                                            Aim to increase organic (non-paid) traffic by optimizing various elements of a website, making it more attractive to both users and search engines. </div>
+                                                        <div class="dtr-servicebox__keywords">
+                                                            <span class="dtr-servicebox__keyword ">PPC Advertising</span><span class="dtr-servicebox__keyword ">SEO Audits</span><span class="dtr-servicebox__keyword ">Off-page seo</span><span class="dtr-servicebox__keyword ">Keyword Research</span>
+                                                            <span
+                                                                class="dtr-servicebox__keyword ">Link building</span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-6a738c2 e-con-full e-flex e-con e-parent" data-id="6a738c2" data-element_type="container" id="works" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-6a08bd3 e-con-full e-flex e-con e-child" data-id="6a08bd3" data-element_type="container">
+                                        <div class="elementor-element elementor-element-fdb2ee5 elementor-align-center elementor-widget elementor-widget-dtr-subheading" data-id="fdb2ee5" data-element_type="widget" data-widget_type="dtr-subheading.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="dtr-subheading-wrapper">
+                                                    <p class="dtr-subheading">Works</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-1fdcc77 elementor-align-center elementor-widget elementor-widget-dtr-heading" data-id="1fdcc77" data-element_type="widget" data-widget_type="dtr-heading.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="dtr-heading-wrapper">
+                                                    <h2 class="dtr-heading">Featured projects</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-d79f436 e-con-full e-flex e-con e-child" data-id="d79f436" data-element_type="container">
+                                        <div class="elementor-element elementor-element-df8114f elementor-widget elementor-widget-dtr-grid-portfolio" data-id="df8114f" data-element_type="widget" data-widget_type="dtr-grid-portfolio.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="dtr-filter-nav-wrapper">
+                                                    <ul class="dtr-filter-nav dtr-filter-nav__center clearfix">
+                                                        <li><a class="dtr-filter-all active" data-filter="*" href="#">All</a></li>
+                                                        <li><a data-filter=".branding" href="#">Branding</a></li>
+                                                        <li><a data-filter=".creative" href="#">Creative</a></li>
+                                                        <li><a data-filter=".marketing" href="#">Marketing</a></li>
+                                                        <li><a data-filter=".visual" href="#">Visual</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dtr-portfolio-grid portfolio-style1 dtr-portfolio-masonry dtr-portfolio-grid-3col">
+                                                    <div class="dtr-portfolio-item isotope-item branding  all">
+                                                        <div class="dtr-portfolio-item__wrapper dtr-radius--rounded"><a class="dtr-portfolio-item__wrap-link" href="https://tanshcreative.com/mellow-wp/portfolio/pressed-juicery/" target="_self" aria-label="Pressed Juicery"></a>
+                                                            <div class="dtr-portfolio-item__img">
+                                                                <div class="dtr-overlay"></div><img fetchpriority="high" decoding="async" width="1400" height="1400" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-12.jpg" class="attachment-full size-full wp-post-image"
+                                                                    alt="" srcset="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-12.jpg 1400w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-12-300x300.jpg 300w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-12-1024x1024.jpg 1024w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-12-150x150.jpg 150w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-12-768x768.jpg 768w"
+                                                                    sizes="(max-width: 1400px) 100vw, 1400px" /><a class="dtr-portfolio-item__link" href="https://tanshcreative.com/mellow-wp/portfolio/pressed-juicery/" target="_self" aria-label="Pressed Juicery">View Case Study</a>
+                                                                <div
+                                                                    class="dtr-portfolio-item__content">
+                                                                    <div class="dtr-portfolio-item__categories"><span class="dtr-portfolio-item__category">Branding</span> </div>
+                                                                    <h4 class="dtr-portfolio-item__heading"><a href="https://tanshcreative.com/mellow-wp/portfolio/pressed-juicery/" target="_self" aria-label="Pressed Juicery">Pressed Juicery</a></h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="dtr-portfolio-item isotope-item marketing  all">
+                                                    <div class="dtr-portfolio-item__wrapper dtr-radius--rounded"><a class="dtr-portfolio-item__wrap-link" href="https://tanshcreative.com/mellow-wp/portfolio/nouri-probiotic/" target="_self" aria-label="Nouri Probiotic"></a>
+                                                        <div class="dtr-portfolio-item__img">
+                                                            <div class="dtr-overlay"></div><img loading="lazy" decoding="async" width="1400" height="1200" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-11.jpg" class="attachment-full size-full wp-post-image"
+                                                                alt="" srcset="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-11.jpg 1400w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-11-300x257.jpg 300w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-11-1024x878.jpg 1024w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-11-150x129.jpg 150w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-11-768x658.jpg 768w"
+                                                                sizes="(max-width: 1400px) 100vw, 1400px" /><a class="dtr-portfolio-item__link" href="https://tanshcreative.com/mellow-wp/portfolio/nouri-probiotic/" target="_self" aria-label="Nouri Probiotic">View Case Study</a>
+                                                            <div
+                                                                class="dtr-portfolio-item__content">
+                                                                <div class="dtr-portfolio-item__categories"><span class="dtr-portfolio-item__category">Marketing</span> </div>
+                                                                <h4 class="dtr-portfolio-item__heading"><a href="https://tanshcreative.com/mellow-wp/portfolio/nouri-probiotic/" target="_self" aria-label="Nouri Probiotic">Nouri Probiotic</a></h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dtr-portfolio-item isotope-item creative  all">
+                                                <div class="dtr-portfolio-item__wrapper dtr-radius--rounded"><a class="dtr-portfolio-item__wrap-link" href="https://tanshcreative.com/mellow-wp/portfolio/joborba/" target="_self" aria-label="Joborba"></a>
+                                                    <div class="dtr-portfolio-item__img">
+                                                        <div class="dtr-overlay"></div><img loading="lazy" decoding="async" width="1400" height="1300" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-10.jpg" class="attachment-full size-full wp-post-image" alt=""
+                                                            srcset="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-10.jpg 1400w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-10-300x279.jpg 300w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-10-1024x951.jpg 1024w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-10-150x139.jpg 150w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-10-768x713.jpg 768w"
+                                                            sizes="(max-width: 1400px) 100vw, 1400px" /><a class="dtr-portfolio-item__link" href="https://tanshcreative.com/mellow-wp/portfolio/joborba/" target="_self" aria-label="Joborba">View Case Study</a>
+                                                        <div
+                                                            class="dtr-portfolio-item__content">
+                                                            <div class="dtr-portfolio-item__categories"><span class="dtr-portfolio-item__category">Creative</span> </div>
+                                                            <h4 class="dtr-portfolio-item__heading"><a href="https://tanshcreative.com/mellow-wp/portfolio/joborba/" target="_self" aria-label="Joborba">Joborba</a></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dtr-portfolio-item isotope-item marketing  all">
+                                            <div class="dtr-portfolio-item__wrapper dtr-radius--rounded"><a class="dtr-portfolio-item__wrap-link" href="https://tanshcreative.com/mellow-wp/portfolio/sound-on/" target="_self" aria-label="Sound On"></a>
+                                                <div class="dtr-portfolio-item__img">
+                                                    <div class="dtr-overlay"></div><img loading="lazy" decoding="async" width="1400" height="1400" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-9.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-9.jpg 1400w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-9-300x300.jpg 300w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-9-1024x1024.jpg 1024w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-9-150x150.jpg 150w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-9-768x768.jpg 768w"
+                                                        sizes="(max-width: 1400px) 100vw, 1400px" /><a class="dtr-portfolio-item__link" href="https://tanshcreative.com/mellow-wp/portfolio/sound-on/" target="_self" aria-label="Sound On">View Case Study</a>
+                                                    <div
+                                                        class="dtr-portfolio-item__content">
+                                                        <div class="dtr-portfolio-item__categories"><span class="dtr-portfolio-item__category">Marketing</span> </div>
+                                                        <h4 class="dtr-portfolio-item__heading"><a href="https://tanshcreative.com/mellow-wp/portfolio/sound-on/" target="_self" aria-label="Sound On">Sound On</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dtr-portfolio-item isotope-item visual  all">
+                                        <div class="dtr-portfolio-item__wrapper dtr-radius--rounded"><a class="dtr-portfolio-item__wrap-link" href="https://tanshcreative.com/mellow-wp/portfolio/onne-skin-care/" target="_self" aria-label="Onne Skin Care"></a>
+                                            <div class="dtr-portfolio-item__img">
+                                                <div class="dtr-overlay"></div><img loading="lazy" decoding="async" width="1400" height="1200" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-8.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-8.jpg 1400w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-8-300x257.jpg 300w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-8-1024x878.jpg 1024w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-8-150x129.jpg 150w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-8-768x658.jpg 768w"
+                                                    sizes="(max-width: 1400px) 100vw, 1400px" /><a class="dtr-portfolio-item__link" href="https://tanshcreative.com/mellow-wp/portfolio/onne-skin-care/" target="_self" aria-label="Onne Skin Care">View Case Study</a>
+                                                <div
+                                                    class="dtr-portfolio-item__content">
+                                                    <div class="dtr-portfolio-item__categories"><span class="dtr-portfolio-item__category">Visual</span> </div>
+                                                    <h4 class="dtr-portfolio-item__heading"><a href="https://tanshcreative.com/mellow-wp/portfolio/onne-skin-care/" target="_self" aria-label="Onne Skin Care">Onne Skin Care</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dtr-portfolio-item isotope-item visual  all">
+                                    <div class="dtr-portfolio-item__wrapper dtr-radius--rounded"><a class="dtr-portfolio-item__wrap-link" href="https://tanshcreative.com/mellow-wp/portfolio/boxed-water/" target="_self" aria-label="Boxed Water"></a>
+                                        <div class="dtr-portfolio-item__img">
+                                            <div class="dtr-overlay"></div><img loading="lazy" decoding="async" width="1400" height="1300" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-7.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://tanshcreative.com/mellow-wp/wp-content/uploads/item-7.jpg 1400w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-7-300x279.jpg 300w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-7-1024x951.jpg 1024w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-7-150x139.jpg 150w, https://tanshcreative.com/mellow-wp/wp-content/uploads/item-7-768x713.jpg 768w"
+                                                sizes="(max-width: 1400px) 100vw, 1400px" /><a class="dtr-portfolio-item__link" href="https://tanshcreative.com/mellow-wp/portfolio/boxed-water/" target="_self" aria-label="Boxed Water">View Case Study</a>
+                                            <div
+                                                class="dtr-portfolio-item__content">
+                                                <div class="dtr-portfolio-item__categories"><span class="dtr-portfolio-item__category">Visual</span> </div>
+                                                <h4 class="dtr-portfolio-item__heading"><a href="https://tanshcreative.com/mellow-wp/portfolio/boxed-water/" target="_self" aria-label="Boxed Water">Boxed Water</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+    </div>
+    <div class="elementor-element elementor-element-398adb8 e-flex e-con-boxed e-con e-parent" data-id="398adb8" data-element_type="container" id="about" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-2ce92a8 e-grid e-con-full e-con e-child" data-id="2ce92a8" data-element_type="container">
+                <div class="elementor-element elementor-element-f9af3b1 e-con-full e-flex e-con e-child" data-id="f9af3b1" data-element_type="container">
+                    <div class="elementor-element elementor-element-609947c elementor-align-left elementor-widget elementor-widget-dtr-subheading" data-id="609947c" data-element_type="widget" data-widget_type="dtr-subheading.default">
+                        <div class="elementor-widget-container">
+                            <div class="dtr-subheading-wrapper">
+                                <p class="dtr-subheading">About Me</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-837beb3 e-con-full e-flex e-con e-child" data-id="837beb3" data-element_type="container">
+                    <div class="elementor-element elementor-element-9fbc47c elementor-align-left elementor-widget elementor-widget-dtr-heading" data-id="9fbc47c" data-element_type="widget" data-widget_type="dtr-heading.default">
+                        <div class="elementor-widget-container">
+                            <div class="dtr-heading-wrapper">
+                                <h2 class="dtr-heading">A product designer with a knack for turning problems and challenges into user-driven strategic solutions.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-6b334b8 e-grid e-con-full e-con e-child" data-id="6b334b8" data-element_type="container">
+                <div class="elementor-element elementor-element-c8076fc e-con-full e-flex e-con e-child" data-id="c8076fc" data-element_type="container">
+                    <div class="elementor-element elementor-element-d3aa90b elementor-widget elementor-widget-dtr-feature-highlight" data-id="d3aa90b" data-element_type="widget" data-widget_type="dtr-feature-highlight.default">
+                        <div class="elementor-widget-container">
+                            <div class="dtr-feature-highlight dtr-feature-highlight--boxed dtr-radius--round">
+                                <a href="#" class="dtr-wrapping-link" role="button"></a>
+                                <div class="dtr-icon dtr-feature-highlight__icon">
+                                    <img loading="lazy" decoding="async" width="1200" height="1200" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2.jpg" class="attachment-full size-full wp-image-23" alt="" srcset="https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2.jpg 1200w, https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2-300x300.jpg 300w, https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2-1024x1024.jpg 1024w, https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2-150x150.jpg 150w, https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2-768x768.jpg 768w, https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/elementor/thumbs/me-2-r5ete5ir2vcebkq6qbrz77mufdcrr2ekrg3tl87dvo.jpg 90w"
+                                        sizes="(max-width: 1200px) 100vw, 1200px" /> </div>
+                                <div class="dtr-feature-highlight__content">
+                                    <p class="dtr-feature-highlight__heading">Get in Touch</p>
+                                    <div class="dtr-feature-highlight__text">hello@example.com</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-0dfe333 e-con-full e-flex e-con e-child" data-id="0dfe333" data-element_type="container">
+                    <div class="elementor-element elementor-element-84b41dd elementor-widget elementor-widget-text-editor" data-id="84b41dd" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>I specialize in creating unique visual identities for digital products. I believe that a stunning design starts with common values, open communication, technical knowledge and respect for your audience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-868ce87 e-grid e-con-full e-con e-child" data-id="868ce87" data-element_type="container">
+                <div class="elementor-element elementor-element-cd2278a e-con-full e-flex e-con e-child" data-id="cd2278a" data-element_type="container">
+                    <div class="elementor-element elementor-element-ff2e0ea elementor-align-left elementor-widget elementor-widget-dtr-subheading" data-id="ff2e0ea" data-element_type="widget" data-widget_type="dtr-subheading.default">
+                        <div class="elementor-widget-container">
+                            <div class="dtr-subheading-wrapper">
+                                <p class="dtr-subheading">Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-3a8ef2e e-con-full e-flex e-con e-child" data-id="3a8ef2e" data-element_type="container">
+                        <div class="elementor-element elementor-element-8ebacb3 elementor-widget elementor-widget-dtr-timeline" data-id="8ebacb3" data-element_type="widget" data-widget_type="dtr-timeline.default">
+                            <div class="elementor-widget-container">
+                                <div class="dtr-timeline">
+                                    <div class="dtr-timeline__head">
+
+                                        <div class="dtr-icon dtr-timeline__icon">
+                                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/comp-2-r5qklcxr0qaba893o3vxbs2eat4zpcdl8odxz1lyps.png" title="comp-2" alt="comp-2" loading="lazy" /> </div>
+                                    </div>
+
+                                    <p class="dtr-timeline__duration">Aug 2023 &mdash; Present</p>
+
+                                    <p class="dtr-timeline__designation">Associate Creative Director</p>
+
+                                    <div class="dtr-timeline__content">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-dd69f7c elementor-widget elementor-widget-dtr-timeline" data-id="dd69f7c" data-element_type="widget" data-widget_type="dtr-timeline.default">
+                            <div class="elementor-widget-container">
+                                <div class="dtr-timeline">
+                                    <div class="dtr-timeline__head">
+
+                                        <div class="dtr-icon dtr-timeline__icon">
+                                        </div>
+                                        <h6 class="dtr-timeline__heading">&#x269E; ACME Digital.</h6>
+                                    </div>
+
+                                    <p class="dtr-timeline__duration"> May 2021 &mdash; Jun 2023 </p>
+
+                                    <p class="dtr-timeline__designation">Senior Product Designer </p>
+
+                                    <div class="dtr-timeline__content">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-1d1c2c3 elementor-widget elementor-widget-dtr-timeline" data-id="1d1c2c3" data-element_type="widget" data-widget_type="dtr-timeline.default">
+                            <div class="elementor-widget-container">
+                                <div class="dtr-timeline">
+                                    <div class="dtr-timeline__head">
+
+                                        <div class="dtr-icon dtr-timeline__icon">
+                                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/comp-1-1-r5qkkmm9pdaecgs6t08v3dvhqsfjyzvcbr7wxvzz7k.png" title="comp-1" alt="comp-1" loading="lazy" /> </div>
+                                    </div>
+
+                                    <p class="dtr-timeline__duration">Mar 2020 &mdash; Apr 2021</p>
+
+                                    <p class="dtr-timeline__designation">Creative Head @Provev Innovations</p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-f96e354 elementor-widget elementor-widget-dtr-timeline" data-id="f96e354" data-element_type="widget" data-widget_type="dtr-timeline.default">
+                            <div class="elementor-widget-container">
+                                <div class="dtr-timeline">
+                                    <div class="dtr-timeline__head">
+
+                                        <div class="dtr-icon dtr-timeline__icon">
+                                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/comp-3-r5qkxcdo5ooy4pjdntxdrc866f7fp1u16xnbqdauww.png" title="comp-3" alt="comp-3" loading="lazy" /> </div>
+                                    </div>
+
+                                    <p class="dtr-timeline__duration">Jan 2019 &mdash; Feb 2020</p>
+
+                                    <p class="dtr-timeline__designation">Design Intern</p>
+
+                                    <div class="dtr-timeline__content">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-0ce2bbf e-con-full e-flex e-con e-child" data-id="0ce2bbf" data-element_type="container">
+                    <div class="elementor-element elementor-element-1009f4e elementor-align-left elementor-widget elementor-widget-dtr-subheading" data-id="1009f4e" data-element_type="widget" data-widget_type="dtr-subheading.default">
+                        <div class="elementor-widget-container">
+                            <div class="dtr-subheading-wrapper">
+                                <p class="dtr-subheading">Education</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-3c5f8c9 e-con-full e-flex e-con e-child" data-id="3c5f8c9" data-element_type="container">
+                        <div class="elementor-element elementor-element-1e0366b elementor-widget elementor-widget-dtr-timeline" data-id="1e0366b" data-element_type="widget" data-widget_type="dtr-timeline.default">
+                            <div class="elementor-widget-container">
+                                <div class="dtr-timeline">
+                                    <div class="dtr-timeline__head">
+
+                                        <div class="dtr-icon dtr-timeline__icon">
+                                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/alma-3-r5qjw3ztfxq0lu8f4nfzpkegngg33e9i4rpwf5l2bk.png" title="alma-3" alt="alma-3" loading="lazy" /> </div>
+                                    </div>
+
+                                    <p class="dtr-timeline__duration">Nov 2017 &mdash; Dec 2019</p>
+
+                                    <p class="dtr-timeline__designation">Cranfield University, UK</p>
+
+                                    <div class="dtr-timeline__content">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-1367506 elementor-widget elementor-widget-dtr-timeline" data-id="1367506" data-element_type="widget" data-widget_type="dtr-timeline.default">
+                            <div class="elementor-widget-container">
+                                <div class="dtr-timeline">
+                                    <div class="dtr-timeline__head">
+
+                                        <div class="dtr-icon dtr-timeline__icon">
+                                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/alma-2-r5qj3xrylp5mml5mmz1jh6c3opb1dzf4lbszllcutc.png" title="alma-2" alt="alma-2" loading="lazy" /> </div>
+                                        <h6 class="dtr-timeline__heading">DSGN School, UK</h6>
+                                    </div>
+
+                                    <p class="dtr-timeline__duration">Aug 2013 &mdash; Oct 2016</p>
+
+                                    <p class="dtr-timeline__designation">Msc in Innovation Design</p>
+
+                                    <div class="dtr-timeline__content">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-2cdfd71 elementor-widget elementor-widget-dtr-timeline" data-id="2cdfd71" data-element_type="widget" data-widget_type="dtr-timeline.default">
+                            <div class="elementor-widget-container">
+                                <div class="dtr-timeline">
+                                    <div class="dtr-timeline__head">
+
+                                        <div class="dtr-icon dtr-timeline__icon">
+                                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/alma-1-r5qido6bmd77tsp3ype92z0sil1pzqwg975jrv83r4.png" title="alma-1" alt="alma-1" loading="lazy" /> </div>
+                                    </div>
+
+                                    <p class="dtr-timeline__duration">Sep 2010 &mdash; Jun 2012</p>
+
+                                    <p class="dtr-timeline__designation">Bsc in IT @ACME Institute, UK</p>
+
+                                    <div class="dtr-timeline__content">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-cdd5dc2 e-con-full e-flex e-con e-child" data-id="cdd5dc2" data-element_type="container">
+                <div class="elementor-element elementor-element-8e59aea elementor-align-left elementor-widget elementor-widget-dtr-subheading" data-id="8e59aea" data-element_type="widget" data-widget_type="dtr-subheading.default">
+                    <div class="elementor-widget-container">
+                        <div class="dtr-subheading-wrapper">
+                            <p class="dtr-subheading">The Numbers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-779c7d1 e-con-full e-grid e-con e-child" data-id="779c7d1" data-element_type="container">
+                    <div class="elementor-element elementor-element-32ae649 e-con-full e-flex e-con e-child" data-id="32ae649" data-element_type="container">
+                        <div class="elementor-element elementor-element-0423d51 elementor-widget__width-auto elementor-widget elementor-widget-counter" data-id="0423d51" data-element_type="widget" data-widget_type="counter.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-counter">
+                                    <div class="elementor-counter-number-wrapper">
+                                        <span class="elementor-counter-number-prefix"></span>
+                                        <span class="elementor-counter-number" data-duration="2000" data-to-value="12" data-from-value="0" data-delimiter=",">0</span>
+                                        <span class="elementor-counter-number-suffix">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-d3316ef elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="d3316ef" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>Years of experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-77fd3ff e-con-full e-flex e-con e-child" data-id="77fd3ff" data-element_type="container">
+                        <div class="elementor-element elementor-element-5d5883b e-con-full e-flex e-con e-child" data-id="5d5883b" data-element_type="container">
+                            <div class="elementor-element elementor-element-b70bc73 elementor-widget__width-auto elementor-widget elementor-widget-counter" data-id="b70bc73" data-element_type="widget" data-widget_type="counter.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-counter">
+                                        <div class="elementor-counter-number-wrapper">
+                                            <span class="elementor-counter-number-prefix"></span>
+                                            <span class="elementor-counter-number" data-duration="2000" data-to-value="6" data-from-value="0" data-delimiter=",">0</span>
+                                            <span class="elementor-counter-number-suffix"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-9eb71ee elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="9eb71ee" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p>Awards won</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-b5a73e8 e-con-full e-flex e-con e-child" data-id="b5a73e8" data-element_type="container">
+                        <div class="elementor-element elementor-element-f4784aa e-con-full e-flex e-con e-child" data-id="f4784aa" data-element_type="container">
+                            <div class="elementor-element elementor-element-53404f3 elementor-widget__width-auto elementor-widget elementor-widget-counter" data-id="53404f3" data-element_type="widget" data-widget_type="counter.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-counter">
+                                        <div class="elementor-counter-number-wrapper">
+                                            <span class="elementor-counter-number-prefix"></span>
+                                            <span class="elementor-counter-number" data-duration="2000" data-to-value="30" data-from-value="0" data-delimiter=",">0</span>
+                                            <span class="elementor-counter-number-suffix">+</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-791dbfb elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="791dbfb" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p>Projects completed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-9a8f8a8 e-con-full e-flex e-con e-child" data-id="9a8f8a8" data-element_type="container">
+                        <div class="elementor-element elementor-element-e8bf9d8 e-con-full e-flex e-con e-child" data-id="e8bf9d8" data-element_type="container">
+                            <div class="elementor-element elementor-element-82eaf27 elementor-widget__width-auto elementor-widget elementor-widget-counter" data-id="82eaf27" data-element_type="widget" data-widget_type="counter.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-counter">
+                                        <div class="elementor-counter-number-wrapper">
+                                            <span class="elementor-counter-number-prefix"></span>
+                                            <span class="elementor-counter-number" data-duration="2000" data-to-value="4" data-from-value="0" data-delimiter=",">0</span>
+                                            <span class="elementor-counter-number-suffix">K</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-154dbef elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="154dbef" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p>Happy clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-0c4178a e-flex e-con-boxed e-con e-parent" data-id="0c4178a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-91f9b54 e-grid e-con-full e-con e-child" data-id="91f9b54" data-element_type="container">
+                <div class="elementor-element elementor-element-9aaa242 elementor-align-left elementor-widget elementor-widget-dtr-subheading" data-id="9aaa242" data-element_type="widget" data-widget_type="dtr-subheading.default">
+                    <div class="elementor-widget-container">
+                        <div class="dtr-subheading-wrapper">
+                            <p class="dtr-subheading">Tools</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-7ed1107 elementor-align-left elementor-widget elementor-widget-dtr-heading" data-id="7ed1107" data-element_type="widget" data-widget_type="dtr-heading.default">
+                    <div class="elementor-widget-container">
+                        <div class="dtr-heading-wrapper">
+                            <h2 class="dtr-heading">The key design and development tools I use</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-71f9f8e e-grid e-con-full e-con e-child" data-id="71f9f8e" data-element_type="container">
+                <div class="elementor-element elementor-element-3091a5d e-con-full e-flex e-con e-child" data-id="3091a5d" data-element_type="container">
+                    <div class="elementor-element elementor-element-92fe2b3 elementor-absolute elementor-widget elementor-widget-text-editor" data-id="92fe2b3" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Figma</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-faf1d3f elementor-widget elementor-widget-image" data-id="faf1d3f" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/Figma-r5k1kz5p1bzoluwk5j0u0l3eedozh8zuc8kasw8fy8.png" title="Figma" alt="Figma" loading="lazy" /> </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-69d0bde e-con-full e-flex e-con e-child" data-id="69d0bde" data-element_type="container">
+                    <div class="elementor-element elementor-element-0f0635a elementor-absolute elementor-widget elementor-widget-text-editor" data-id="0f0635a" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Illustrator</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-0594c1c elementor-widget elementor-widget-image" data-id="0594c1c" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/Adobe-Illustrator-r5k1r9oswshdg0ugf15ske8bml96qw3lv7p1vfase8.png" title="Adobe Illustrator" alt="Adobe Illustrator" loading="lazy" />                            </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-9b724f3 e-con-full e-flex e-con e-child" data-id="9b724f3" data-element_type="container">
+                    <div class="elementor-element elementor-element-5ae423f elementor-absolute elementor-widget elementor-widget-text-editor" data-id="5ae423f" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Framer</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-50dc881 elementor-widget elementor-widget-image" data-id="50dc881" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/framer-r5k1vsavmqse4f7b178douw8bwexzxwptqnbhg7ge8.png" title="framer" alt="framer" loading="lazy" /> </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-771099e e-con-full e-flex e-con e-child" data-id="771099e" data-element_type="container">
+                    <div class="elementor-element elementor-element-c0f01f1 elementor-absolute elementor-widget elementor-widget-text-editor" data-id="c0f01f1" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>HTML5</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-4580776 elementor-widget elementor-widget-image" data-id="4580776" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/html-r5k1zyp22v8f6wzf1krt6qq30k6492d8qbdg489000.png" title="html" alt="html" loading="lazy" /> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-646f5b7 e-grid e-con-full e-con e-child" data-id="646f5b7" data-element_type="container">
+                <div class="elementor-element elementor-element-0420fd1 e-con-full e-flex e-con e-child" data-id="0420fd1" data-element_type="container">
+                    <div class="elementor-element elementor-element-295d37c elementor-absolute elementor-widget elementor-widget-text-editor" data-id="295d37c" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Sketch</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-40407f4 elementor-widget elementor-widget-image" data-id="40407f4" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/Sketch-r5k26zjn8t5f8j8w8jfy7dyjnw0g5pr00xzncc5h6o.png" title="Sketch" alt="Sketch" loading="lazy" /> </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-7312f45 e-con-full e-flex e-con e-child" data-id="7312f45" data-element_type="container">
+                    <div class="elementor-element elementor-element-4964b5b elementor-absolute elementor-widget elementor-widget-text-editor" data-id="4964b5b" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Notion</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-e988dca elementor-widget elementor-widget-image" data-id="e988dca" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/notion-r5k2ms801du3sjrdzq5axgb00tv55awdp7q1hbj6kg.png" title="notion" alt="notion" loading="lazy" /> </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-f87d25d e-con-full e-flex e-con e-child" data-id="f87d25d" data-element_type="container">
+                    <div class="elementor-element elementor-element-fe4aada elementor-absolute elementor-widget elementor-widget-text-editor" data-id="fe4aada" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Webflow</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-09b7046 elementor-widget elementor-widget-image" data-id="09b7046" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/webflow-r5k2qp7srayaec8h4zj319bt9bpop2p0w9ecaiiku8.png" title="webflow" alt="webflow" loading="lazy" /> </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-91732ad e-con-full e-flex e-con e-child" data-id="91732ad" data-element_type="container">
+                    <div class="elementor-element elementor-element-9cd45ae elementor-absolute elementor-widget elementor-widget-text-editor" data-id="9cd45ae" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Slack</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-5283c16 elementor-widget elementor-widget-image" data-id="5283c16" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/Slack-r5k2gft7x2xsc4a9fwu5c1koa170v40unsl4i5z9s0.png" title="Slack" alt="Slack" loading="lazy" /> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-b2f300f e-grid e-con-full e-con e-child" data-id="b2f300f" data-element_type="container">
+                <div class="elementor-element elementor-element-2cbd82a e-con-full e-flex e-con e-child" data-id="2cbd82a" data-element_type="container">
+                    <div class="elementor-element elementor-element-a455e2c elementor-absolute elementor-widget elementor-widget-text-editor" data-id="a455e2c" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Development</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-2c32281 elementor-widget elementor-widget-image" data-id="2c32281" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/wordpress-r5k2s07q0ort7dhewetvimhvfq6ml0xxx1l83qtv7k.png" title="wordpress" alt="wordpress" loading="lazy" /> </div>
+                    </div>
+                    <div class="elementor-element elementor-element-7249bca elementor-widget elementor-widget-image" data-id="7249bca" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/angular-r5k2wracjnpa2ryqclxlng2ec6na5f6lkljg5xpdc0.png" title="angular" alt="angular" loading="lazy" /> </div>
+                    </div>
+                    <div class="elementor-element elementor-element-fd8ba1d elementor-widget elementor-widget-image" data-id="fd8ba1d" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/visual-studio-r5k33jodxgkjr0pxieez4pnm01av38rau5xu81putc.png" title="visual studio" alt="visual studio" loading="lazy" /> </div>
+                    </div>
+                    <div class="elementor-element elementor-element-83407ee elementor-widget elementor-widget-image" data-id="83407ee" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/nextjs-r5k3boy15rq0dcvxxx6kqnnfc95dst3jyhhbydn0w0.png" title="nextjs" alt="nextjs" loading="lazy" /> </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-ca126ca e-con-full e-flex e-con e-child" data-id="ca126ca" data-element_type="container">
+                    <div class="elementor-element elementor-element-f4eaa6d elementor-absolute elementor-widget elementor-widget-text-editor" data-id="f4eaa6d" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Motion</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-240c495 elementor-widget elementor-widget-image" data-id="240c495" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/premier-pro-r5k3ju7oeintwid1rvdd339xab1z6mr1wsewbslm68.png" title="premier pro" alt="premier pro" loading="lazy" /> </div>
+                    </div>
+                    <div class="elementor-element elementor-element-8d4300a elementor-widget elementor-widget-image" data-id="8d4300a" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/capcut-r5k3t3wdx387i7zanntsj5de8fy0tro7uhx03v92ww.png" title="capcut" alt="capcut" loading="lazy" /> </div>
+                    </div>
+                    <div class="elementor-element elementor-element-77c8b95 elementor-widget elementor-widget-image" data-id="77c8b95" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/adobe-audition--r5k3yn661kxereuwbrqtuusa3s33f0iuy2b7fone68.png" title="adobe audition-" alt="adobe audition-" loading="lazy" />                            </div>
+                    </div>
+                    <div class="elementor-element elementor-element-d1e6be7 elementor-widget elementor-widget-image" data-id="d1e6be7" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/elementor/thumbs/davinci-resolve-r5kczdgx3no6svuzq7ip0x5dj3h0yddafciyey4ncw.png" title="davinci resolve" alt="davinci resolve" loading="lazy" />                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-a462922 e-flex e-con-boxed e-con e-parent" data-id="a462922" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-364eaa0 e-con-full e-flex e-con e-child" data-id="364eaa0" data-element_type="container">
+                <div class="elementor-element elementor-element-2789cea elementor-align-center elementor-widget elementor-widget-dtr-subheading" data-id="2789cea" data-element_type="widget" data-widget_type="dtr-subheading.default">
+                    <div class="elementor-widget-container">
+                        <div class="dtr-subheading-wrapper">
+                            <p class="dtr-subheading">How I work</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-1d1d31a elementor-align-center elementor-widget elementor-widget-dtr-heading" data-id="1d1d31a" data-element_type="widget" data-widget_type="dtr-heading.default">
+                    <div class="elementor-widget-container">
+                        <div class="dtr-heading-wrapper">
+                            <h2 class="dtr-heading">Product Design Process</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-9447348 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="9447348" data-element_type="widget" data-widget_type="text-editor.default">
+                    <div class="elementor-widget-container">
+                        <p>Structured series of steps that guide the development of a new product—from identifying a problem or opportunity, to delivering a final, market-ready solution.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-576a372 e-con-full e-grid e-con e-child" data-id="576a372" data-element_type="container">
+                <div class="elementor-element elementor-element-dfff866 elementor-widget elementor-widget-dtr-process" data-id="dfff866" data-element_type="widget" data-widget_type="dtr-process.default">
+                    <div class="elementor-widget-container">
+                        <div class="dtr-process">
+                            <div class="dtr-ripple">
+                                <span class="dtr-ripple-dot"></span>
+                                <span class="dtr-ripple-ring dtr-ripple-ring1"></span>
+                                <span class="dtr-ripple-ring dtr-ripple-ring2"></span>
+                                <span class="dtr-ripple-ring dtr-ripple-ring3"></span>
+                            </div>
+                            <h5 class="dtr-process__heading">
+                                <span class="dtr-process__number">1.</span> Discover
+                            </h5>
+                            <div class="dtr-process__content">The goal is to define clear objectives and requirements for the product and gathering insights.</div>
+
+                            <div class="dtr-process__keywords">
+                                <span class="dtr-process__keyword ">Stakeholder Interview</span><span class="dtr-process__keyword ">Problem Finding</span><span class="dtr-process__keyword ">Market Research</span><span class="dtr-process__keyword ">Product Positioning</span>
+                                <span
+                                    class="dtr-process__keyword ">UX Research</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-787c4fe elementor-widget elementor-widget-dtr-process" data-id="787c4fe" data-element_type="widget" data-widget_type="dtr-process.default">
+                    <div class="elementor-widget-container">
+                        <div class="dtr-process">
+                            <div class="dtr-ripple">
+                                <span class="dtr-ripple-dot"></span>
+                                <span class="dtr-ripple-ring dtr-ripple-ring1"></span>
+                                <span class="dtr-ripple-ring dtr-ripple-ring2"></span>
+                                <span class="dtr-ripple-ring dtr-ripple-ring3"></span>
+                            </div>
+                            <h5 class="dtr-process__heading">
+                                <span class="dtr-process__number">2.</span> Design
+                            </h5>
+                            <div class="dtr-process__content">In this stage, ideas are translated into tangible concepts to align product with business goals.</div>
+
+                            <div class="dtr-process__keywords">
+                                <span class="dtr-process__keyword ">Wireframe</span><span class="dtr-process__keyword ">Visual Design</span><span class="dtr-process__keyword ">User Testing</span><span class="dtr-process__keyword ">Validation</span> </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-53aeab8 elementor-widget elementor-widget-dtr-process" data-id="53aeab8" data-element_type="widget" data-widget_type="dtr-process.default">
+                    <div class="elementor-widget-container">
+                        <div class="dtr-process">
+                            <div class="dtr-ripple">
+                                <span class="dtr-ripple-dot"></span>
+                                <span class="dtr-ripple-ring dtr-ripple-ring1"></span>
+                                <span class="dtr-ripple-ring dtr-ripple-ring2"></span>
+                                <span class="dtr-ripple-ring dtr-ripple-ring3"></span>
+                            </div>
+                            <h5 class="dtr-process__heading">
+                                <span class="dtr-process__number">3.</span> Deliver
+                            </h5>
+                            <div class="dtr-process__content">The final phase involves collaborating with developers to build and launch the product.</div>
+
+                            <div class="dtr-process__keywords">
+                                <span class="dtr-process__keyword ">Project Handover</span><span class="dtr-process__keyword ">Developerr Collaboration</span><span class="dtr-process__keyword ">LOng TIme Support</span> </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-9d1feec e-con-full e-flex e-con e-parent" data-id="9d1feec" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-element elementor-element-95c0ae3 e-con-full e-flex e-con e-child" data-id="95c0ae3" data-element_type="container">
+            <div class="elementor-element elementor-element-e74b73d elementor-align-center elementor-widget elementor-widget-dtr-subheading" data-id="e74b73d" data-element_type="widget" data-widget_type="dtr-subheading.default">
+                <div class="elementor-widget-container">
+                    <div class="dtr-subheading-wrapper">
+                        <p class="dtr-subheading">Testimonials</p>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-5254024 elementor-align-center elementor-widget elementor-widget-dtr-heading" data-id="5254024" data-element_type="widget" data-widget_type="dtr-heading.default">
+                <div class="elementor-widget-container">
+                    <div class="dtr-heading-wrapper">
+                        <h2 class="dtr-heading">What clients say</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="elementor-element elementor-element-f44abdb e-con-full e-grid e-con e-child" data-id="f44abdb" data-element_type="container">
+            <div class="elementor-element elementor-element-4ea3916 elementor-widget elementor-widget-dtr-testimonial-carousel" data-id="4ea3916" data-element_type="widget" data-widget_type="dtr-testimonial-carousel.default">
+                <div class="elementor-widget-container">
+                    <div class="swiper dtr-swiper swiper-container dtr-testimonial-carousel arrows" data-swiper-autoplay-delay="7000" data-swiper-autoplay="on" data-swiper-loop="true" data-swiper-centered-slides="true">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="dtr-testimonial">
+                                    <div class="dtr-testimonial__client-img-wrapper"><img decoding="async" class="dtr-testimonial__client-img" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/testm-user3-90x90.jpg" alt="Mark Robinson" /></div>
+                                    <div class="dtr-testimonial__text">“Extremely professional, unique and enjoyable. The effort taken to ensure sed quia non numquam eius modi tempora incidunt ut labore voluptat relevance to our requirements ensured the optimum outcome.”</div>
+                                    <div class="dtr-testimonial__client-info">
+                                        <p class="dtr-testimonial__client-name">Mark Robinson</p>
+                                        <p class="dtr-testimonial__client-job">Project Manager, ACME Works</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dtr-testimonial">
+                                    <div class="dtr-testimonial__client-img-wrapper"><img decoding="async" class="dtr-testimonial__client-img" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/testm-user1-90x90.jpg" alt="Thomas Luze" /></div>
+                                    <div class="dtr-testimonial__text">“Extremely professional, unique and enjoyable. The effort taken to ensure sed quia non numquam eius modi tempora incidunt ut labore voluptat relevance to our requirements ensured the optimum outcome.”</div>
+                                    <div class="dtr-testimonial__client-info">
+                                        <p class="dtr-testimonial__client-name">Thomas Luze</p>
+                                        <p class="dtr-testimonial__client-job">Senior Product Developer @ ThisOne</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dtr-testimonial">
+                                    <div class="dtr-testimonial__client-img-wrapper"><img decoding="async" class="dtr-testimonial__client-img" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/testm-user2-90x90.jpg" alt="Andrea De Santis" /></div>
+                                    <div class="dtr-testimonial__text">“Extremely professional, unique and enjoyable. The effort taken to ensure sed quia non numquam eius modi tempora incidunt ut labore voluptat relevance to our requirements ensured the optimum outcome.”</div>
+                                    <div class="dtr-testimonial__client-info">
+                                        <p class="dtr-testimonial__client-name">Andrea De Santis</p>
+                                        <p class="dtr-testimonial__client-job">CEO, Agresar Soft Inc.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dtr-swiper-nav dtr-swiper-arrow-nav">
+                            <div class="swiper-button-prev dtr-swiper-button dtr-testimonial__prev"></div>
+                            <div class="swiper-button-next dtr-swiper-button dtr-testimonial__next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-6b227fb e-flex e-con-boxed e-con e-parent" data-id="6b227fb" data-element_type="container" id="articles" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-853704e e-grid e-con-full e-con e-child" data-id="853704e" data-element_type="container">
+                <div class="elementor-element elementor-element-39f9f9a elementor-align-left elementor-widget elementor-widget-dtr-subheading" data-id="39f9f9a" data-element_type="widget" data-widget_type="dtr-subheading.default">
+                    <div class="elementor-widget-container">
+                        <div class="dtr-subheading-wrapper">
+                            <p class="dtr-subheading">Latest Posts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-c02597b elementor-align-left elementor-widget elementor-widget-dtr-heading" data-id="c02597b" data-element_type="widget" data-widget_type="dtr-heading.default">
+                    <div class="elementor-widget-container">
+                        <div class="dtr-heading-wrapper">
+                            <h2 class="dtr-heading">Explore Recent Insights and articles</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-680f311 e-grid e-con-full e-con e-child" data-id="680f311" data-element_type="container">
+                <div class="elementor-element elementor-element-958b6a2 elementor-widget elementor-widget-dtr-posts-carousel" data-id="958b6a2" data-element_type="widget" data-widget_type="dtr-posts-carousel.default">
+                    <div class="elementor-widget-container">
+                        <div class="swiper dtr-swiper swiper-container dtr-recentposts-carousel none" data-swiper-autoplay-delay="7000" data-swiper-autoplay="on" data-swiper-loop="true">
+                            <div class="swiper-wrapper dtr-radius--rounded">
+                                <div class="swiper-slide dtr-post-block" data-swiper-autoplay="7000">
+                                    <div class="dtr-post-block__content-wrapper">
+                                        <div class="dtr-post-block__img-wrapper"><a class="dtr-wrapping-link" href="https://tanshcreative.com/mellow-wp/importance-of-search-engine-optimization-best-practices/" rel="bookmark" aria-label="Importance of search engine optimization best practices"></a><img
+                                                decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/post-img11-1200x800.jpg" alt="Importance of search engine optimization best practices" /></div>
+                                        <div class="dtr-post-block__meta dtr-meta">
+                                            <div class="dtr-meta-item dtr-meta-category"><a href="https://tanshcreative.com/mellow-wp/category/growth/">Growth</a></div>
+                                        </div>
+                                        <h5 class="dtr-post-block__title"><a class="dtr-post-block__title-link" href="https://tanshcreative.com/mellow-wp/importance-of-search-engine-optimization-best-practices/" rel="bookmark">Importance of search engine optimization best practices</a></h5>
+                                        <p
+                                            class="dtr-post-block__button-wrap"><a class="dtr-post__button" href="https://tanshcreative.com/mellow-wp/importance-of-search-engine-optimization-best-practices/" role="button">Read More</a></p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide dtr-post-block" data-swiper-autoplay="7000">
+                                    <div class="dtr-post-block__content-wrapper">
+                                        <div class="dtr-post-block__img-wrapper"><a class="dtr-wrapping-link" href="https://tanshcreative.com/mellow-wp/15-design-tips-that-always-deliver-growth/" rel="bookmark" aria-label="15 design tips that always deliver growth"></a><img decoding="async"
+                                                src="https://tanshcreative.com/mellow-wp/wp-content/uploads/post-img8-1200x800.jpg" alt="15 design tips that always deliver growth" /></div>
+                                        <div class="dtr-post-block__meta dtr-meta">
+                                            <div class="dtr-meta-item dtr-meta-category"><a href="https://tanshcreative.com/mellow-wp/category/design/">Design</a></div>
+                                        </div>
+                                        <h5 class="dtr-post-block__title"><a class="dtr-post-block__title-link" href="https://tanshcreative.com/mellow-wp/15-design-tips-that-always-deliver-growth/" rel="bookmark">15 design tips that always deliver growth</a></h5>
+                                        <p class="dtr-post-block__button-wrap"><a class="dtr-post__button" href="https://tanshcreative.com/mellow-wp/15-design-tips-that-always-deliver-growth/" role="button">Read More</a></p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide dtr-post-block" data-swiper-autoplay="7000">
+                                    <div class="dtr-post-block__content-wrapper">
+                                        <div class="dtr-post-block__img-wrapper"><a class="dtr-wrapping-link" href="https://tanshcreative.com/mellow-wp/the-value-proposition-business-branding/" rel="bookmark" aria-label="The value proposition business branding"></a><img decoding="async" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/post-img9-1200x800.jpg"
+                                                alt="The value proposition business branding" /></div>
+                                        <div class="dtr-post-block__meta dtr-meta">
+                                            <div class="dtr-meta-item dtr-meta-category"><a href="https://tanshcreative.com/mellow-wp/category/growth/">Growth</a></div>
+                                        </div>
+                                        <h5 class="dtr-post-block__title"><a class="dtr-post-block__title-link" href="https://tanshcreative.com/mellow-wp/the-value-proposition-business-branding/" rel="bookmark">The value proposition business branding</a></h5>
+                                        <p class="dtr-post-block__button-wrap"><a class="dtr-post__button" href="https://tanshcreative.com/mellow-wp/the-value-proposition-business-branding/" role="button">Read More</a></p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide dtr-post-block" data-swiper-autoplay="7000">
+                                    <div class="dtr-post-block__content-wrapper">
+                                        <div class="dtr-post-block__img-wrapper"><a class="dtr-wrapping-link" href="https://tanshcreative.com/mellow-wp/essential-social-media-tips-for-small-business/" rel="bookmark" aria-label="Essential social media tips for small business"></a><img decoding="async"
+                                                src="https://tanshcreative.com/mellow-wp/wp-content/uploads/post-img4-1200x800.jpg" alt="Essential social media tips for small business" /></div>
+                                        <div class="dtr-post-block__meta dtr-meta">
+                                            <div class="dtr-meta-item dtr-meta-category"><a href="https://tanshcreative.com/mellow-wp/category/design/">Design</a></div>
+                                        </div>
+                                        <h5 class="dtr-post-block__title"><a class="dtr-post-block__title-link" href="https://tanshcreative.com/mellow-wp/essential-social-media-tips-for-small-business/" rel="bookmark">Essential social media tips for small business</a></h5>
+                                        <p class="dtr-post-block__button-wrap"><a class="dtr-post__button" href="https://tanshcreative.com/mellow-wp/essential-social-media-tips-for-small-business/" role="button">Read More</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-eaf2b40 e-flex e-con-boxed e-con e-parent" data-id="eaf2b40" data-element_type="container" id="contact" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-fb957b9 e-grid e-con-full e-con e-child" data-id="fb957b9" data-element_type="container">
+                <div class="elementor-element elementor-element-4cca4b9 e-con-full e-flex e-con e-child" data-id="4cca4b9" data-element_type="container">
+                    <div class="elementor-element elementor-element-1f891d4 elementor-align-left elementor-widget elementor-widget-dtr-subheading" data-id="1f891d4" data-element_type="widget" data-widget_type="dtr-subheading.default">
+                        <div class="elementor-widget-container">
+                            <div class="dtr-subheading-wrapper">
+                                <p class="dtr-subheading">Contact Me</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-63cfe2b elementor-align-left elementor-widget elementor-widget-dtr-heading" data-id="63cfe2b" data-element_type="widget" data-widget_type="dtr-heading.default">
+                        <div class="elementor-widget-container">
+                            <div class="dtr-heading-wrapper">
+                                <h2 class="dtr-heading">Let's talk about your project</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-b63ddd4 elementor-widget elementor-widget-text-editor" data-id="b63ddd4" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            Let’s embark on creative journey together by shaping a visual narrative of your brand in the crowded digital space. </div>
+                    </div>
+                    <div class="elementor-element elementor-element-e39560b e-con-full e-flex e-con e-child" data-id="e39560b" data-element_type="container">
+                        <div class="elementor-element elementor-element-7cdbf16 elementor-widget elementor-widget-dtr-feature-highlight" data-id="7cdbf16" data-element_type="widget" data-widget_type="dtr-feature-highlight.default">
+                            <div class="elementor-widget-container">
+                                <div class="dtr-feature-highlight dtr-feature-highlight--boxed dtr-radius--round">
+                                    <a href="#" class="dtr-wrapping-link" role="button"></a>
+                                    <div class="dtr-icon dtr-feature-highlight__icon">
+                                        <img loading="lazy" decoding="async" width="1200" height="1200" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2.jpg" class="attachment-full size-full wp-image-23" alt="" srcset="https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2.jpg 1200w, https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2-300x300.jpg 300w, https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2-1024x1024.jpg 1024w, https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2-150x150.jpg 150w, https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/me-2-768x768.jpg 768w, https://tanshcreative.com/mellow-wp/wp-content/uploads/2025/05/elementor/thumbs/me-2-r5ete5ir2vcebkq6qbrz77mufdcrr2ekrg3tl87dvo.jpg 90w"
+                                            sizes="(max-width: 1200px) 100vw, 1200px" /> </div>
+                                    <div class="dtr-feature-highlight__content">
+                                        <p class="dtr-feature-highlight__heading">Book a Call</p>
+                                        <div class="dtr-feature-highlight__text">+ 1 800 23 456 789</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-94b636f elementor-widget elementor-widget-dtr-feature-highlight" data-id="94b636f" data-element_type="widget" data-widget_type="dtr-feature-highlight.default">
+                            <div class="elementor-widget-container">
+                                <div class="dtr-feature-highlight dtr-feature-highlight--boxed dtr-radius--round">
+                                    <a href="#" class="dtr-wrapping-link" role="button"></a>
+                                    <div class="dtr-icon dtr-feature-highlight__icon">
+                                        <i class="icon-envelope" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="dtr-feature-highlight__content">
+                                        <p class="dtr-feature-highlight__heading">Prefer Email Communication</p>
+                                        <div class="dtr-feature-highlight__text">hello@example.com</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-b2a3f3d e-con-full e-flex e-con e-child" data-id="b2a3f3d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-element elementor-element-424a418 elementor-widget elementor-widget-shortcode" data-id="424a418" data-element_type="widget" data-widget_type="shortcode.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-shortcode">
+                                <div class="wpcf7 no-js" id="wpcf7-f2774-p9-o1" lang="en-US" dir="ltr" data-wpcf7-id="2774">
+                                    <div class="screen-reader-response">
+                                        <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                        <ul></ul>
+                                    </div>
+                                    <form action="/mellow-wp/#wpcf7-f2774-p9-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                        <fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="2774" /><input type="hidden" name="_wpcf7_version" value="6.1.1" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag"
+                                                value="wpcf7-f2774-p9-o1" /><input type="hidden" name="_wpcf7_container_post" value="9" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+                                        </fieldset>
+                                        <div>
+                                            <p><label> <span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="John Doe" value="" type="text" name="your-name" /></span> </label><br
+                                                />
+                                                <label> <span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="hello@example.com" value="" type="email" name="your-email" /></span> </label><br
+                                                />
+                                                <label> <span class="wpcf7-form-control-wrap" data-name="your-subject"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Subject" value="" type="text" name="your-subject" /></span> </label><br
+                                                />
+                                                <label> <span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="10" rows="5" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message in brief..." name="your-message"></textarea></span> </label><br
+                                                />
+                                                <span class="spacer-20"></span>
+                                            </p>
+                                            <p><button type="submit" class="dtr-btn" aria-label="Send Button">Send Message</button>
+                                            </p>
+                                        </div>
+                                        <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </article>
+    <div class="clearfix"></div>
+    </div>
+    </main>
+    <!-- #dtr-primary-section -->
+    </div>
+    <!-- #dtr-main-wrapper -->
+    <footer id="dtr-footer-section" class="dtr-footer-section-wrap clearfix">
+        <div class="container">
+            <div class="dtr-footer-row">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div id="block-16" class="widget widget_block widget_media_image">
+                            <figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="362" height="230" src="https://tanshcreative.com/mellow-wp/wp-content/uploads/logo-symbol.png" alt="" class="wp-image-2773" style="object-fit:cover;width:79px;height:50px" srcset="https://tanshcreative.com/mellow-wp/wp-content/uploads/logo-symbol.png 362w, https://tanshcreative.com/mellow-wp/wp-content/uploads/logo-symbol-300x191.png 300w, https://tanshcreative.com/mellow-wp/wp-content/uploads/logo-symbol-150x95.png 150w"
+                                    sizes="(max-width: 362px) 100vw, 362px" /></figure>
+                        </div>
+                        <div id="block-6" class="widget widget_block">
+                            <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+                        </div>
+                        <div id="block-4" class="widget widget_block widget_text">
+                            <p>© 2025. Mellow</p>
+                        </div>
+                        <div id="block-12" class="widget widget_block">
+                            <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+                        </div>
+                        <div id="block-11" class="widget widget_block widget_text">
+                            <p>WordPress Theme by Tansh</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 small-device-space">
+                        <div id="block-13" class="widget widget_block">
+                            <h6 class="wp-block-heading">Navigation</h6>
+                        </div>
+                        <div id="nav_menu-2" class="widget widget_nav_menu">
+                            <nav class="menu-copyright-menu-container" aria-label="Menu">
+                                <ul id="menu-copyright-menu" class="menu">
+                                    <li id="menu-item-2953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2953"><a href="#services">Services</a></li>
+                                    <li id="menu-item-2954" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2954"><a href="#works">Works</a></li>
+                                    <li id="menu-item-2955" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2955"><a href="#about">About Me</a></li>
+                                    <li id="menu-item-2956" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2956"><a href="#articles">Articles</a></li>
+                                    <li id="menu-item-2957" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2957"><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 small-device-space">
+                        <div id="block-17" class="widget widget_block">
+                            <h6 class="wp-block-heading">Connect</h6>
+                        </div>
+                        <div id="block-18" class="widget widget_block">
+                            <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+                        </div>
+                        <div id="mellow_social_widget-5" class="widget mellow_social_widget">
+                            <div class="dtr-social-widget clearfix dtr-social-vertical-title text-left">
+                                <ul class="dtr-social">
+                                    <li><a class="dtr-twitter / x" href="#" title="Twitter / X" target="_blank" rel="nofollow" aria-label="Twitter / X"><span class="dtr-social-title">Twitter / X</span></a></li>
+                                    <li><a class="dtr-whatsapp" href="#" title="Whatsapp" target="_blank" rel="nofollow" aria-label="Whatsapp"><span class="dtr-social-title">Whatsapp</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <a id="take-to-top" href="#" class="show" aria-label="Scroll To Top"></a>
+        </div>
+    </footer>
+    </div>
+    <!-- #dtr-wrapper -->
+    <div class="dtr-cursor-wrapper dtr-cursor"></div>
+    <script type="speculationrules">
+        {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/mellow-wp\/*"},{"not":{"href_matches":["\/mellow-wp\/wp-*.php","\/mellow-wp\/wp-admin\/*","\/mellow-wp\/wp-content\/uploads\/*","\/mellow-wp\/wp-content\/*","\/mellow-wp\/wp-content\/plugins\/*","\/mellow-wp\/wp-content\/themes\/mellow\/*","\/mellow-wp\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch,
+        .no-prefetch a"}}]},"eagerness":"conservative"}]}
+    </script>
+    <script>
+        const lazyloadRunObserver = () => {
+            const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+            const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        let lazyloadBackground = entry.target;
+                        if (lazyloadBackground) {
+                            lazyloadBackground.classList.add('e-lazyloaded');
+                        }
+                        lazyloadBackgroundObserver.unobserve(entry.target);
+                    }
+                });
+            }, {
+                rootMargin: '200px 0px 200px 0px'
+            });
+            lazyloadBackgrounds.forEach((lazyloadBackground) => {
+                lazyloadBackgroundObserver.observe(lazyloadBackground);
+            });
+        };
+        const events = [
+            'DOMContentLoaded',
+            'elementor/lazyload/observe',
+        ];
+        events.forEach((event) => {
+            document.addEventListener(event, lazyloadRunObserver);
+        });
+    </script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+    <script id="wp-i18n-js-after">
+        wp.i18n.setLocaleData({
+            'text direction\u0004ltr': ['ltr']
+        });
+    </script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.1" id="swv-js"></script>
+    <script id="contact-form-7-js-before">
+        var wpcf7 = {
+            "api": {
+                "root": "https:\/\/tanshcreative.com\/mellow-wp\/wp-json\/",
+                "namespace": "contact-form-7\/v1"
+            }
+        };
+    </script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.1" id="contact-form-7-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/themes/mellow/assets/js/jquery.easing.js?ver=1.3.0" id="jquery-easing-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/themes/mellow/assets/js/isotope.js?ver=3.0.6" id="isotope-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/themes/mellow/assets/js/jquery.slicknav.js?ver=1.0.10" id="slicknav-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/themes/mellow/assets/js/superfish.js?ver=1.7.10" id="superfish-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/themes/mellow/assets/js/custom.js?ver=1.0.0" id="mellow-custom-js-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.31.3" id="elementor-webpack-runtime-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.31.3" id="elementor-frontend-modules-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+    <script id="elementor-frontend-js-before">
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "download": "Download",
+                "downloadImage": "Download image",
+                "fullscreen": "Fullscreen",
+                "zoom": "Zoom",
+                "share": "Share",
+                "playVideo": "Play Video",
+                "previous": "Previous",
+                "next": "Next",
+                "close": "Close",
+                "a11yCarouselPrevSlideMessage": "Previous slide",
+                "a11yCarouselNextSlideMessage": "Next slide",
+                "a11yCarouselFirstSlideMessage": "This is the first slide",
+                "a11yCarouselLastSlideMessage": "This is the last slide",
+                "a11yCarouselPaginationBulletMessage": "Go to slide"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Mobile Portrait",
+                        "value": 767,
+                        "default_value": 767,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "mobile_extra": {
+                        "label": "Mobile Landscape",
+                        "value": 880,
+                        "default_value": 880,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "tablet": {
+                        "label": "Tablet Portrait",
+                        "value": 1024,
+                        "default_value": 1024,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "tablet_extra": {
+                        "label": "Tablet Landscape",
+                        "value": 1200,
+                        "default_value": 1200,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1366,
+                        "default_value": 1366,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "default_value": 2400,
+                        "direction": "min",
+                        "is_enabled": false
+                    }
+                },
+                "hasCustomBreakpoints": false
+            },
+            "version": "3.31.3",
+            "is_static": false,
+            "experimentalFeatures": {
+                "e_font_icon_svg": true,
+                "additional_custom_breakpoints": true,
+                "container": true,
+                "nested-elements": true,
+                "home_screen": true,
+                "global_classes_should_enforce_capabilities": true,
+                "e_variables": true,
+                "cloud-library": true,
+                "e_opt_in_v4_page": true
+            },
+            "urls": {
+                "assets": "https:\/\/tanshcreative.com\/mellow-wp\/wp-content\/plugins\/elementor\/assets\/",
+                "ajaxurl": "https:\/\/tanshcreative.com\/mellow-wp\/wp-admin\/admin-ajax.php",
+                "uploadUrl": "https:\/\/tanshcreative.com\/mellow-wp\/wp-content\/uploads"
+            },
+            "nonces": {
+                "floatingButtonsClickTracking": "350bf5b167"
+            },
+            "swiperClass": "swiper",
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "global_image_lightbox": "yes",
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description"
+            },
+            "post": {
+                "id": 9,
+                "title": "Mellow%20%E2%80%93%20Personal%20Portfolio%2C%20CV%20and%20Resume%20WordPress%20Theme",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
+    </script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.31.3" id="elementor-frontend-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5" id="swiper-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/plugins/dtr-mellow-elementor-addon/assets/js/dtr-widgets.js?ver=1.0" id="dtr-widgets-js"></script>
+    <script src="https://tanshcreative.com/mellow-wp/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1" id="jquery-numerator-js"></script>
+</body>
+
+</html>
